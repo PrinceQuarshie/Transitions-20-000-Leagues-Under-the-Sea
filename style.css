@@ -15,13 +15,11 @@ body {
   }
 }
 
-
 @media only screen and (max-width: 540px) {
   html {
     font-size: 12px;
   }
 }
-
 
 /* Navigation Bar */
 
@@ -34,14 +32,14 @@ nav {
   height: 100%;
   padding-left: 5rem;
   padding-right: 2rem;
-  background: url("https://content.codecademy.com/courses/freelance-1/unit-6/nav_background.png") center center repeat;
+  background: url("https://content.codecademy.com/courses/freelance-1/unit-6/nav_background.png")
+    center center repeat;
   font-family: "Proza Libre", serif;
   font-size: 18px;
   line-height: 2.2;
   font-weight: bold;
   color: #142033;
   transition: left 1000ms ease-in-out 50ms;
-
 }
 
 nav:hover {
@@ -71,7 +69,6 @@ nav a {
   text-decoration: none;
   color: inherit;
   transition: color 100ms linear 50ms;
-
 }
 
 nav a:hover,
@@ -179,7 +176,6 @@ header h2 {
 .definable .word {
   color: #639eff;
   transition: color 300ms ease 300ms;
-
 }
 
 .definable .word:hover {
@@ -200,7 +196,6 @@ header h2 {
   font-family: "Proza Libre", sans-serif;
   font-size: 1.5rem;
   transition: top 1000ms 0s, opacity 2000ms 1000ms;
-
 }
 
 .definable:hover .definition-container {
@@ -249,7 +244,6 @@ header h2 {
   text-decoration: none;
   color: #ffffff;
   transition: opacity 300ms ease-in-out 200ms;
-
 }
 
 .button:hover {
